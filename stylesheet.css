@@ -1,0 +1,218 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+*{
+  box-sizing: border-box;
+}
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image:url(https://github.com/yuzu43025/zumicrochet/blob/master/zumicrochet-top.jpeg?raw=true);
+  color: white;
+  background-size: cover;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 15px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 15px;
+}
+
+.lesson-wrapper {
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.clear {clear: left;}
+.faq-wrapper {
+  margin: 0 auto;
+
+}
+.faq-list-item {
+  margin:10px;
+  border-bottom:1px solid #ccc;
+  position:relative;
+  cursor:pointer;
+  text-align: left;
+}
+
+.faq-list-item h3 {
+  font-size: 14px;
+}
+
+.faq-list-item span {
+  position:absolute;
+  top:0;
+  right:5px;
+  color:#ccc;
+  font-size:13px;
+}
+
+.answer {
+  font-size: 12px;
+  padding: 5px 0px;
+  margin-bottom: 15px;
+  display:none;
+
+}
+
+.heading {
+  padding-bottom: 70px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+  padding-top:50px;
+  text-align: center;
+}
+
+.faq {
+  padding: 0 145px 0 145px;
+}
+.flex-list {
+  display:flex;
+  width: 80%;
+  /* height:246.2px;*/
+  justify-content: space-between;
+margin:0 auto;
+}
+.lessons .lesson-icon img{
+  width:100%;
+}
+.lesson-img {
+  padding: 0;
+}
+.item-body {
+  padding: 0;
+}
+
+.lesson-icon p {
+  top: 44%;
+  width: 100%;
+  color: #5f5d60;
+
+}
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin: 10px 0 15px 0;
+  font-size: 13px;
+  color: #b3aeb5;
+}
+/*.message-wrapper {
+  padding-bottom: 50px 0 50px 0;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+.message-wrapper p {
+  opacity: 0.8;
+  display:block;
+  padding-top: 50px;
+}
+*/
+
+footer {
+  border-top: 1px solid #eee;
+  float:right;
+}
+
+footer img {
+  height: 60px;
+  position: relative;
+  left: 28px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+  right:15px;
+}
+
+@media (max-width:1000px){
+.flex-list {
+  width:80%;
+  display: flex;
+  margin:0 auto;
+  justify-content: space-between;
+}
+.message-wrapper p {
+  padding-top: 90px;
+}
+
+
+@media (max-width:670px){
+.flex-list {
+  width:100%;
+  flex-direction:column;
+  margin:0 auto;
+}
+.top-wrapper{
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 0 30px 0;
+
+}
+.top-wrapper h1 {
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+.top-wrapper p {
+  font-size: 11px;
+  opacity: 0.9;
+}
+.faq {
+  padding: 0 10px 50px 10px;
+
+}
+
+.heading {
+  /*height:100px;*/
+  padding-bottom: 50px;
+}
+.heading h2 {
+  font-size:15px;
+  padding-top:50px;
+}
+.heading p {
+}
+.text-contents {
+  color:   #5f5d60;
+  opacity: 0.8;
+}
+.message-wrapper p {
+  padding:30px 0 5px 0;
+  font-size:10px;
+}
+footer img {
+  height: 50px;
+}
+}
